@@ -73,5 +73,17 @@ void main(List<String> arguments) {
   // print("One: $one");
   // print("Two: $two");
   // result = ?, one = ?, two = ?
-}
 
+  // Toán tử xử lý null
+  // Gán giá trị nếu null ??=
+  // var a;
+  // a ?? print("hello");
+  // print(a);
+
+  // Ép kiểu
+  // Type casting : as
+  // Kiểm tra kiểu:
+
+  // 6: Câu điều kiện
+
+}
