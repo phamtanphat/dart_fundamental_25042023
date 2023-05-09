@@ -85,5 +85,32 @@ void main(List<String> arguments) {
   // Kiểm tra kiểu:
 
   // 6: Câu điều kiện
+  // var teoWeight = 20;
+  // var tyWeight = 10;
 
+  // if (tyWeight > teoWeight) {
+  //   print("Tý nặng hơn Tèo");
+  // } else if (tyWeight == teoWeight) {
+  //   print("Tý nặng như Tèo");
+  // } else {
+  //   print("Tý nhẹ hơn Tèo");
+  // }
+
+  // Toán tử 3 ngôi
+  // String message = teoWeight > tyWeight ? "Tèo nặng hơn tý" : "Tèo nhẹ hơn hoặc bằng Tý";
+  // print(message);
+
+  // 7: Câu kiện switch case
+  var month = 1;
+
+  switch (month) {
+    case 1:
+    case 2:
+    case 3:
+      print("Quí 1");
+      break;
+    case 4:
+      print("Quí 2");
+      break;
+  }
 }
