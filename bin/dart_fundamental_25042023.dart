@@ -52,8 +52,8 @@ void main(List<String> arguments) {
   // print(result);
 
   // ++ --
-  var one = 5;
-  var two = 8;
+  // var one = 5;
+  // var two = 8;
   // ++ để sau
   // Gán giá trị
   // Tăng giá trị lên 1
@@ -61,7 +61,17 @@ void main(List<String> arguments) {
   // print("Number2 : $number2");
 
   // Nên viết ra và test tay
-  var result = one++ - --two + one-- + two++ - --one;
+  // var result = one++ - --two + one-- + two++ - --one;
+  // 5 - --two + one-- + two++ - --one; one = 6, two = 8
+  // 5 - 7 + one-- + two++ - --one; one = 6, two = 7
+  // 5 - 7 + 6 + two++ - --one; one = 5, two = 7
+  // 5 - 7 + 6 + 7 - --one; one = 5, two = 8
+  // 5 - 7 + 6 + 7 - 4; one = 4, two = 8
+  // result = 7; one = 4, two = 8
+
+  // print("Result: $result");
+  // print("One: $one");
+  // print("Two: $two");
   // result = ?, one = ?, two = ?
 }
 
