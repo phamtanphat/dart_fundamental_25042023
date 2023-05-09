@@ -101,16 +101,19 @@ void main(List<String> arguments) {
   // print(message);
 
   // 7: Câu kiện switch case
-  var month = 1;
+  // var month = 1;
+  //
+  // switch (month) {
+  //   case 1:
+  //   case 2:
+  //   case 3:
+  //     print("Quí 1");
+  //     break;
+  //   case 4:
+  //     print("Quí 2");
+  //     break;
+  // }
 
-  switch (month) {
-    case 1:
-    case 2:
-    case 3:
-      print("Quí 1");
-      break;
-    case 4:
-      print("Quí 2");
-      break;
-  }
+  // 8: Mảng
+
 }
