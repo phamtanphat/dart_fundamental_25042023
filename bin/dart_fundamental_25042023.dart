@@ -46,9 +46,22 @@ void main(List<String> arguments) {
   // / (Gía trị trả về có phần thập phân)
   // ~/ (Lấy phần nguyên)
   // % (Lấy phần dư)
-  var number1 = 5;
-  var number2 = 3;
-  var result = number1 ~/ number2;
-  print(result);
+  // var number1 = 5;
+  // var number2 = 3;
+  // var result = number1 ~/ number2;
+  // print(result);
+
+  // ++ --
+  var one = 5;
+  var two = 8;
+  // ++ để sau
+  // Gán giá trị
+  // Tăng giá trị lên 1
+  // print("Number1 : $number1");
+  // print("Number2 : $number2");
+
+  // Nên viết ra và test tay
+  var result = one++ - --two + one-- + two++ - --one;
+  // result = ?, one = ?, two = ?
 }
 
