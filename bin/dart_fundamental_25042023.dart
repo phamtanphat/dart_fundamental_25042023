@@ -24,9 +24,31 @@ void main(List<String> arguments) {
   // text?.split("");
 
   // 2: String interpolation
-  String name = "Phạm Tấn Phát";
-  double height = 1.75;
+  // String name = "Phạm Tấn Phát";
+  // double height = 1.75;
+  //
+  // print("Name: $name, height: $height m");
 
-  print("Name: $name, height: $height m");
+  // 3: Kiểm tra kiểu dữ liệu
+  // var a = 10;
+  // print(a.runtimeType);
+
+  // 4: Final va const
+
+  // Final được sử dụng ở runtime
+  // Const được sử dụng ở compile
+  // var a = 5;
+  // final b = a;
+  // const c = 10;
+
+  // 5: Toán tử
+  // + - *
+  // / (Gía trị trả về có phần thập phân)
+  // ~/ (Lấy phần nguyên)
+  // % (Lấy phần dư)
+  var number1 = 5;
+  var number2 = 3;
+  var result = number1 ~/ number2;
+  print(result);
 }
 
