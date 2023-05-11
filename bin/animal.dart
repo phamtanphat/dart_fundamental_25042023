@@ -16,4 +16,9 @@ class Animal {
 
   // Named constructor
   Animal.empty();
+
+  @override
+  String toString() {
+    return 'Animal{name: $name, weight: $weight}';
+  }
 }

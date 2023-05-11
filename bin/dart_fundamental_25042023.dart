@@ -165,5 +165,5 @@ void main(List<String> arguments) {
 
   // Tạo instance
   var cat = Animal("Mimi", 5);
-  print(cat.name);
+  print(cat.toString());
 }
