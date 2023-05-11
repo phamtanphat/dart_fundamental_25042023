@@ -1,3 +1,5 @@
+import 'animal.dart';
+
 void main(List<String> arguments) {
   // Dùng camelcase: pizzaCheeseCategory
   // Comment code : ctrl + / (command + / cho macos)
@@ -145,5 +147,23 @@ void main(List<String> arguments) {
   //
   // person["name"] = "Tèo";
 
+  // 9: Vòng lặp for
+  // var arrNumbers = [1, 2, 3, 4, 5, 6, 7, 9, 10];
+  // for (int i = 0; i < arrNumbers.length; i++) {
+  //   print(arrNumbers[i]);
+  // }
+  //
+  // 10: Vòng lặp while
+  // var count = 0;
+  // while(count < 10) {
+  //   print(count);
+  //   count += 2;
+  // }
 
+  // 11: Hướng đối tượng
+  // class và instance
+
+  // Tạo instance
+  var cat = Animal("Mimi", 5);
+  print(cat.name);
 }
