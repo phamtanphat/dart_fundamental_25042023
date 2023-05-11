@@ -115,5 +115,20 @@ void main(List<String> arguments) {
   // }
 
   // 8: Mảng
+  // list: Lưu trữ phần tử qua index và value
+  // build in function (static function)
+  // var arrNumbers = [];
+  // ctrl + p = coi tham số truyền vào
+  var arrNumber = List.generate(10, (index) {
+    return index * 10;
+  });
 
+  // Thêm dữ liệu
+  arrNumber.add(100);
+  // Cập nhật dữ liệu
+  arrNumber[0] = -10;
+  // Xoá dữ liệu
+  arrNumber.removeAt(0);
+
+  print(arrNumber);
 }
