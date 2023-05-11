@@ -119,16 +119,31 @@ void main(List<String> arguments) {
   // build in function (static function)
   // var arrNumbers = [];
   // ctrl + p = coi tham số truyền vào
-  var arrNumber = List.generate(10, (index) {
-    return index * 10;
-  });
+  // var arrNumber = List.generate(10, (index) {
+  //   return index * 10;
+  // });
+  //
+  // // Thêm dữ liệu
+  // arrNumber.add(100);
+  // // Cập nhật dữ liệu
+  // arrNumber[0] = -10;
+  // // Xoá dữ liệu
+  // arrNumber.removeAt(0);
+  //
+  // print(arrNumber);
 
-  // Thêm dữ liệu
-  arrNumber.add(100);
-  // Cập nhật dữ liệu
-  arrNumber[0] = -10;
-  // Xoá dữ liệu
-  arrNumber.removeAt(0);
+  // set: giống với list nhưng chứa giá trị trùng
+  // Chỉ có thêm hoặc xoá
+  // var arrNumber = {1, 2, 1, 2, 3, 4, 5, 6, 7};
+  // print(arrNumber);
 
-  print(arrNumber);
+  // map: lưu trữ theo key và value
+  // var person = {
+  //   "name": "Tý",
+  //   "age": 5
+  // };
+  //
+  // person["name"] = "Tèo";
+
+
 }
