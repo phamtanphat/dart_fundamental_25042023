@@ -1,4 +1,5 @@
 import 'animal.dart';
+import 'cat.dart';
 
 void main(List<String> arguments) {
   // Dùng camelcase: pizzaCheeseCategory
@@ -164,7 +165,10 @@ void main(List<String> arguments) {
   // class và instance
 
   // Tạo instance
-  var cat = Animal("abáds", 5);
-  cat.name = "sa2321312";
+  // var cat = Animal("abáds", 5);
+  // cat.name = "sa2321312";
+  // print(cat.toString());
+
+  var cat = Cat("Mimi", 5, "White");
   print(cat.toString());
 }

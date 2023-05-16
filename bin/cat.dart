@@ -2,7 +2,12 @@ import 'animal.dart';
 
 class Cat extends Animal{
 
-  Cat(String name, int weight) : super(name, weight);
+  String color = "";
 
-  Cat(super.name, super.weight);
+  Cat(String name, int weight, this.color) : super(name, weight);
+
+  @override
+  String toString() {
+    return 'Cat{name: ${super.name}, weight: ${super.weight}, color: $color}';
+  }
 }
