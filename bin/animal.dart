@@ -29,7 +29,6 @@ class Animal {
     _weight = value;
   }
 
-
   @override
   String toString() {
     return 'Animal{name: $_name, weight: $_weight}';
