@@ -164,6 +164,7 @@ void main(List<String> arguments) {
   // class và instance
 
   // Tạo instance
-  var cat = Animal("Mimi", 5);
+  var cat = Animal("abáds", 5);
+  cat.name = "sa2321312";
   print(cat.toString());
 }
